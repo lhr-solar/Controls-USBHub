@@ -1,0 +1,181 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "575e54eb-222d-4a3d-8ddb-f77803539ae9")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 142.24 57.15)
+		(uuid "66e5246e-3ae6-4f92-8155-680fdcf54749")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16b6e8e-79c7-4dd4-8506-1ca35f832aa2")
+	)
+	(sheet
+		(at 142.24 52.07)
+		(size 34.29 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d91df4c-565e-4c25-a0df-cc77e6d4b3a9")
+		(property "Sheetname" "PWR Dist"
+			(at 142.24 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_dist.kicad_sch"
+			(at 142.24 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_PWR" input
+			(at 142.24 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05037d9a-7276-4cf0-98d6-7d5ee0f2f301")
+		)
+		(pin "+12V_PWR" input
+			(at 142.24 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0815a446-e1cb-4ac4-b291-5c377b7185c0")
+		)
+		(instances
+			(project "USBBoard"
+				(path "/575e54eb-222d-4a3d-8ddb-f77803539ae9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 106.68)
+		(size 34.29 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d40ff0f-a0af-4e6d-81f7-0d03e77f1d61")
+		(property "Sheetname" "USB Isolation"
+			(at 179.07 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_isolation.kicad_sch"
+			(at 179.07 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USBBoard"
+				(path "/575e54eb-222d-4a3d-8ddb-f77803539ae9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 41.91)
+		(size 52.07 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d694db84-4491-4cf8-b482-7bc091ae2e39")
+		(property "Sheetname" "USB Hub"
+			(at 52.07 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBhub.kicad_sch"
+			(at 52.07 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_PWR" input
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd31c419-a180-494d-9d7f-e8d773d75504")
+		)
+		(pin "+3.3V_PWR" input
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a08f90df-192e-4da4-b408-5b7722dcb360")
+		)
+		(instances
+			(project "USBBoard"
+				(path "/575e54eb-222d-4a3d-8ddb-f77803539ae9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
